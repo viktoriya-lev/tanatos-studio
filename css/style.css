@@ -541,23 +541,23 @@ svg {
 }
 
 .socials__link--fb {
-    background-image: url("../../img/icons/fb.png");
+    background-image: url("../img/icons/fb.png");
 }
 
 .socials__link--twitter {
-    background-image: url("../../img/icons/twitter.png");
+    background-image: url("../img/icons/twitter.png");
 }
 
 .socials__link--google-plus {
-    background-image: url("../../img/icons/google-plus.png");
+    background-image: url("../img/icons/google-plus.png");
 }
 
 .socials__link--dribble {
-    background-image: url("../../img/icons/dribble.png");
+    background-image: url("../img/icons/dribble.png");
 }
 
 .socials__link--behance {
-    background-image: url("../../img/icons/behance.png");
+    background-image: url("../img/icons/behance.png");
 }
 
 .socials__link:hover {
@@ -645,7 +645,7 @@ svg {
     width: 38px;
     height: 38px;
     border-radius: 50%;
-    background: var(--main) url("../../img/icons/close-btn.png") no-repeat center center;
+    background: var(--main) url("../img/icons/close-btn.png") no-repeat center center;
 }
 
 .modal__title,
@@ -753,7 +753,7 @@ svg {
     width: 100%;
     height: 100vh;
     color: var(--white);
-    background: var(--main) url("../../img/top/cover.jpg") no-repeat center center / cover;
+    background: var(--main) url("../img/top/cover.jpg") no-repeat center center / cover;
     overflow-y: auto;
 }
 
@@ -975,7 +975,7 @@ svg {
     display: block;
     width: 34px;
     height: 34px;
-    background: transparent url("../../img/icons/circle_arrow_down.png") no-repeat center center;
+    background: transparent url("../img/icons/circle_arrow_down.png") no-repeat center center;
     -webkit-animation: arrow-down 2s infinite ease;
     animation: arrow-down 2s infinite ease;
 }
@@ -1086,19 +1086,19 @@ svg {
 }
 
 .services__icon--printer {
-    background-image: url("../../img/icons/printer.png");
+    background-image: url("../img/icons/printer.png");
 }
 
 .services__icon--display {
-    background-image: url("../../img/icons/display.png");
+    background-image: url("../img/icons/display.png");
 }
 
 .services__icon--phone {
-    background-image: url("../../img/icons/phone.png");
+    background-image: url("../img/icons/phone.png");
 }
 
 .services__icon--tools {
-    background-image: url("../../img/icons/tools.png");
+    background-image: url("../img/icons/tools.png");
 }
 
 .services__title {
@@ -1162,7 +1162,7 @@ svg {
 
 .subscription {
     padding: var(--section__padding) 0;
-    background: var(--main) url("../../img/subscription/cover.jpg") no-repeat center center / cover;
+    background: var(--main) url("../img/subscription/cover.jpg") no-repeat center center / cover;
 }
 
 .subscription__form {
@@ -1401,7 +1401,7 @@ svg {
 
 .contact {
     padding: var(--section__padding) 0;
-    background: var(--main) url("../../img/contact/cover.jpg") no-repeat center center / cover;
+    background: var(--main) url("../img/contact/cover.jpg") no-repeat center center / cover;
 }
 
 .contact__title,
