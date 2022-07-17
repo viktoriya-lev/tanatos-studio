@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TanatosStudio. We Design Things</title>
+
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <script src="js/settings.js" defer></script>
+    <script src="js/burger.js" defer></script>
+    <script src="js/scroll.js" defer></script>
+    <script src="js/modal.js" defer></script>
+    <script src="js/works.js" defer></script>
+</head>
+
+<body>
+    <h1 class="visually-hidden">TanatosStudio design studio</h1> <!-- заголовок для поисковиков -->
+
+    <div class="top">
+        <div class="top__cover">
+            <header class="header">
+                <div class="container">
+                    <div class="header__wrapper">
+                        <a class="logo header__logo">
+                            <img src="img/icons/logo.png" alt="Website logo">
+                        </a>
+
+                        <div class="header__right">
+                            <span class="header__menu-text">Menu</span>
+                            <button class="burger link reset-btn js-burger" aria-label="Open menu" type="button">
+                                <span class="burger__line"></span>
+                            </button>
+                        </div>
+
+                        <nav class="header__nav js-nav-wrap">
+                            <ul class="nav reset-list">
+                                <li class="nav__item">
+                                    <a class="nav__link link js-nav-link js-scroll-link" href="#">Home</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link link js-nav-link js-scroll-link" href="#hero">About us</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link link js-nav-link js-scroll-link" href="#services">Services</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link link js-nav-link js-scroll-link" href="#works">Our works</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link link js-nav-link js-scroll-link" href="#contact">Contact</a>
+                                </li>
+                            </ul>
+
+                            <ul class="socials header__socials reset-list">
+                                <li class="socials__item">
+                                    <a class="socials__link socials__link--fb" href="#" target="_blank" aria-label="Facebook"></a>
+                                </li>
+                                <li class="socials__item">
+                                    <a class="socials__link socials__link--twitter" href="#" target="_blank" aria-label="Twitter"></a>
+                                </li>
+                                <li class="socials__item">
+                                    <a class="socials__link socials__link--google-plus" href="#" target="_blank" aria-label="Google Plus"></a>
+                                </li>
+                                <li class="socials__item">
+                                    <a class="socials__link socials__link--dribble" href="#" target="_blank" aria-label="Dribble"></a>
+                                </li>
+                                <li class="socials__item">
+                                    <a class="socials__link socials__link--behance" href="#" target="_blank" aria-label="Behance"></a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+
+            <section class="hero" id="hero">
+                <div class="container">
+                    <div class="hero__wrapper">
+                        <h2 class="title hero__title">We design <span class="text-accent">things</span></h2>
+                        <p class="descr hero__descr">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore
+                        </p>
+                        <div class="hero__btns">
+                            <button class="btn btn--transparent hero__btn reset-btn" data-animation="fadeInUp" data-path="modal" data-speed="700">Hire us</button>
+                            <a class="btn btn--transparent hero__btn js-scroll-link" href="#works">Our works</a>
+                        </div>
+
+                        <!-- modal -->
+                        <div class="modal">
+                            <div class="modal__wrapper" data-target="modal">
+                                <button class="modal__close reset-btn" aria-label="Close modal"></button>
+                                <h2 class="title modal__title">Hire <span class="text-accent">us</span></h2>
+                                <p class="descr modal__descr">
+                                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                                </p>
+                                <form class="modal__form" action="https://jsonplaceholder.typicode.com/posts" method="post">
+                                    <input class="modal__input input" type="email" name="e-mail" placeholder="Your email" required>
+                                    <input class="modal__input input" type="text" name="subject" placeholder="Subject" required>
+                                    <textarea class="modal__textarea input" name="message" placeholder="Your message"></textarea>
+                                    <button class="btn btn--accent modal__btn reset-btn" type="submit">
+                                        Send message
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+
+                        <a class="hero__arrow js-scroll-link" href="#services"></a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <main class="main">
+        <section class="services" id="services">
+            <div class="container">
+                <div class="services__row">
+                    <div class="services__column">
+                        <div class="services__item">
+                            <span class="services__icon services__icon--printer"></span>
+                            <h2 class="title services__title">Print design</h2>
+                            <p class="descr services__descr">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit</p>
+                        </div>
+                    </div>
+
+                    <div class="services__column">
+                        <div class="services__item">
+                            <span class="services__icon services__icon--display"></span>
+                            <h2 class="title services__title">Web design</h2>
+                            <p class="descr services__descr">Incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                        </div>
+                    </div>
+
+                    <div class="services__column">
+                        <div class="services__item">
+                            <span class="services__icon services__icon--phone"></span>
+                            <h2 class="title services__title">App design</h2>
+                            <p class="descr services__descr">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis</p>
+                        </div>
+                    </div>
+
+                    <div class="services__column">
+                        <div class="services__item">
+                            <span class="services__icon services__icon--tools"></span>
+                            <h2 class="title services__title">Logo design</h2>
+                            <p class="descr services__descr">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="subscription" id="subscription">
+            <div class="container">
+                <form class="subscription__form" action="https://jsonplaceholder.typicode.com/posts" method="post">
+                    <input class="subscription__input input" type="email" name="e-mail" placeholder="Enter Your email adress for newsletter" required>
+                    <button class="btn btn--accent subscription__btn reset-btn" type="submit">
+                        Subscribe
+                    </button>
+                </form>
+            </div>
+        </section>
+
+        <section class="works" id="works">
+            <div class="container">
+                <div class="works__wrapper">
+                    <h2 class="title works__title">Our <span class="text-accent">works</span></h2>
+                    <p class="descr works__descr">
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+                    </p>
+
+                    <div class="works__list-wrapper">
+                        <ul class="works__list reset-list">
+                            <li class="works__item">
+                                <article class="website" tabindex="0">
+                                    <img class="website__img" src="img/works/work-1.jpg" alt="Website 1">
+                                    <div class="website__info">
+                                        <h3 class="title title website__title">ABAZOO WEBSITE</h3>
+                                        <p class="descr descr website__descr">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>
+                                        <a class="website__link btn btn--white" href="#" target="_blank">SHOW PROJECT</a>
+                                    </div>
+                                </article>
+                            </li>
+                            <li class="works__item">
+                                <article class="website" tabindex="0">
+                                    <img class="website__img" src="img/works/work-2.jpg" alt="Website 2">
+                                    <div class="website__info">
+                                        <h3 class="title website__title">ABAZOO WEBSITE</h3>
+                                        <p class="descr website__descr">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>
+                                        <a class="website__link btn btn--white" href="#" target="_blank">SHOW PROJECT</a>
+                                    </div>
+                                </article>
+
+                            </li>
+                            <li class="works__item">
+                                <article class="website" tabindex="0">
+                                    <img class="website__img" src="img/works/work-3.jpg" alt="Website 3">
+                                    <div class="website__info">
+                                        <h3 class="title website__title">ABAZOO WEBSITE</h3>
+                                        <p class="descr website__descr">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>
+                                        <a class="website__link btn btn--white" href="#" target="_blank">SHOW PROJECT</a>
+                                    </div>
+                                </article>
+                            </li>
+                            <li class="works__item">
+                                <article class="website" tabindex="0">
+                                    <img class="website__img" src="img/works/work-4.jpg" alt="Website 4">
+                                    <div class="website__info">
+                                        <h3 class="title website__title">ABAZOO WEBSITE</h3>
+                                        <p class="descr website__descr">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>
+                                        <a class="website__link btn btn--white" href="#" target="_blank">SHOW PROJECT</a>
+                                    </div>
+                                </article>
+                            </li>
+                            <li class="works__item">
+                                <article class="website" tabindex="0">
+                                    <img class="website__img" src="img/works/work-5.jpg" alt="Website 5">
+                                    <div class="website__info">
+                                        <h3 class="title website__title">ABAZOO WEBSITE</h3>
+                                        <p class="descr website__descr">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>
+                                        <a class="website__link btn btn--white" href="#" target="_blank">SHOW PROJECT</a>
+                                    </div>
+                                </article>
+                            </li>
+                            <li class="works__item">
+                                <article class="website" tabindex="0">
+                                    <img class="website__img" src="img/works/work-6.jpg" alt="Website 6">
+                                    <div class="website__info">
+                                        <h3 class="title website__title">ABAZOO WEBSITE</h3>
+                                        <p class="descr website__descr">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>
+                                        <a class="website__link btn btn--white" href="#" target="_blank">SHOW PROJECT</a>
+                                    </div>
+                                </article>
+                            </li>
+                            <li class="works__item">
+                                <article class="website" tabindex="0">
+                                    <img class="website__img" src="img/works/work-6.jpg" alt="Website 6">
+                                    <div class="website__info">
+                                        <h3 class="title website__title">ABAZOO WEBSITE</h3>
+                                        <p class="descr website__descr">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>
+                                        <a class="website__link btn btn--white" href="#" target="_blank">SHOW PROJECT</a>
+                                    </div>
+                                </article>
+                            </li>
+                            <li class="works__item">
+                                <article class="website" tabindex="0">
+                                    <img class="website__img" src="img/works/work-6.jpg" alt="Website 6">
+                                    <div class="website__info">
+                                        <h3 class="title website__title">ABAZOO WEBSITE</h3>
+                                        <p class="descr website__descr">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>
+                                        <a class="website__link btn btn--white" href="#" target="_blank">SHOW PROJECT</a>
+                                    </div>
+                                </article>
+                            </li>
+                            <li class="works__item">
+                                <article class="website" tabindex="0">
+                                    <img class="website__img" src="img/works/work-6.jpg" alt="Website 6">
+                                    <div class="website__info">
+                                        <h3 class="title website__title">ABAZOO WEBSITE</h3>
+                                        <p class="descr website__descr">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>
+                                        <a class="website__link btn btn--white" href="#" target="_blank">SHOW PROJECT</a>
+                                    </div>
+                                </article>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <button class="works__btn-more reset-btn btn btn--gray active">Show more</button>
+                    <button class="works__btn-less reset-btn btn btn--gray inactive">Show less</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">ß
+            <div class="container">
+                <div class="contact__wrapper">
+                    <h2 class="title contact__title">Say <span class="text-accent">hello</span></h2>
+                    <p class="descr contact__descr">
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                    </p>
+
+                    <form class="contact__form" action="https://jsonplaceholder.typicode.com/posts" method="post">
+                        <div class="contact__form-top">
+                            <input class="contact__input input" type="email" name="e-mail" placeholder="Your email" required>
+                            <input class="contact__input input" type="text" name="subject" placeholder="Subject" required>
+                        </div>
+                        <textarea class="contact__textarea input" name="message" placeholder="Your message"></textarea>
+                        <div class="contact__form-footer">
+                            <button class="contact__btn btn btn--accent reset-btn" type="submit">
+                                Hire us
+                            </button>
+                            <ul class="socials contact__socials reset-list">
+                                <li class="socials__item">
+                                    <a class="socials__link socials__link--fb" href="#" target="_blank"></a>
+                                </li>
+                                <li class="socials__item">
+                                    <a class="socials__link socials__link--twitter" href="#" target="_blank"></a>
+                                </li>
+                                <li class="socials__item">
+                                    <a class="socials__link socials__link--google-plus" href="#" target="_blank"></a>
+                                </li>
+                                <li class="socials__item">
+                                    <a class="socials__link socials__link--dribble" href="#" target="_blank"></a>
+                                </li>
+                                <li class="socials__item">
+                                    <a class="socials__link socials__link--behance" href="#" target="_blank"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <span class="footer__copyright">&#169; 2022 COPYRIGHT</span>
+        </div>
+    </footer>
+</body>
+
+</html>
