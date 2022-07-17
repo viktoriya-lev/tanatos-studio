@@ -1,6 +1,6 @@
 # Tanatos Studio
 
-[Explore the Tanatos Studio landing](viktoriya-lev.github.io/tanatos-studio/)
+[Explore the Tanatos Studio landing](https://viktoriya-lev.github.io/tanatos-studio/)
 
 ## Features
 - BEM approach
