@@ -1,4 +1,4 @@
-# Tanatos Studio
+# Tanatos Studio design agency
 
 [Explore the landing](https://viktoriya-lev.github.io/tanatos-studio/)
 
